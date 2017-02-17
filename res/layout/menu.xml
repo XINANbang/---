@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#bfbfbf"
+    >
+    <LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    >
+	    
+	    <Button
+	    	android:id="@+id/start_btn"
+	    	android:layout_width="150dip"
+	    	android:layout_height="wrap_content"
+	    	
+	    	android:text="开始游戏"
+	    	/>
+	    <Button
+	    	android:id="@+id/choice_btn"
+	    	android:layout_width="150dip"
+	    	android:layout_height="wrap_content"
+	    	
+	    	android:text="选择地图"
+	    	/>
+	    <Button
+	    	android:id="@+id/arrange_btn"
+	    	android:layout_width="150dip"
+	    	android:layout_height="wrap_content"
+	    	
+	    	android:text="排行榜"
+	    	/>
+
+    </LinearLayout>
+    <LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    
+	    >
+	   
+	    
+	    <Button
+	    	android:id="@+id/help_btn"
+	    	android:layout_width="150dip"
+	    	android:layout_height="wrap_content"
+	    	
+	    	android:text="帮助"
+	    	/>
+	    <Button
+	    	android:id="@+id/about_btn"
+	    	android:layout_width="150dip"
+	    	android:layout_height="wrap_content"
+	    	
+	    	android:text="关于"
+	    	/>
+	    <Button
+	    	android:id="@+id/exit_btn"
+	    	android:layout_width="150dip"
+	    	android:layout_height="wrap_content"
+	    	
+	    	android:text="退出游戏"
+	    	/>
+	</LinearLayout>
+</LinearLayout>
